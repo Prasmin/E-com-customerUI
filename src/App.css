@@ -1,9 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair:wght@300;400;600;900&display=swap");
 
-.body {
-  font-family: "Roboto", sans-serif;
-}
-
-.main {
-  min-height: 80vh;
+#root {
+  font-family: "Playfair", serif;
+  font-size: 20px;
 }

@@ -1,18 +1,15 @@
 import React from "react";
-import NavbarComp from "./Navbar";
-import Footer from "./footer";
-import Herosection from "./Herosection";
+import NavbarComp from "./navbar/Navbar";
+import Footer from "./footer/footer";
+import Herosection from "./herosection/HeroSection";
 
 const customerLayout = () => {
   return (
     <>
-      <div className="body">
-        <NavbarComp />
-        <main className="main">
-          <Herosection />
-        </main>
-        <Footer />
-      </div>
+      <NavbarComp />
+      <Herosection />
+
+      {/* <Footer /> */}
     </>
   );
 };
