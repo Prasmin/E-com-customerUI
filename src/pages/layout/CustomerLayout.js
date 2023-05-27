@@ -1,6 +1,6 @@
 import React from "react";
 import NavbarComp from "./navbar/Navbar";
-import Footer from "./footer/footer";
+import Footer from "./footer/Footer";
 import Herosection from "./herosection/HeroSection";
 
 const customerLayout = () => {
@@ -9,7 +9,7 @@ const customerLayout = () => {
       <NavbarComp />
       <Herosection />
 
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

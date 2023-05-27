@@ -1,16 +1,29 @@
 import React from "react";
 import img1 from "./images/background.jpg";
+import "./Hero.css";
+import { Button, Col, Container, Row } from "react-bootstrap";
 
 const Herosection = () => {
   return (
-    <div className="hero-banner-container d-flex" fluid>
-      <div>
-        <p>Shop Smarter,</p>
-        <h2>Live Better</h2>
+    <div className="title">
+      <div className="title--text ">
+        <div className="centered-content">
+          <p>Shop Smart,</p>
+          <h3>Shop Better.</h3>
+
+          <a href="/men">
+            <Button variant="dark" className="mx-2">
+              Shop Men
+            </Button>
+          </a>
+          <a href="/women">
+            <Button variant="dark">Shop Women</Button>
+          </a>
+        </div>
       </div>
 
-      <div>
-        <img src={img1} alt="backgroundimg" width="100%" height="auto" />
+      <div className="title--img">
+        <img src={img1} alt="backgroundimg" />
       </div>
     </div>
   );
